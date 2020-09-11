@@ -1,6 +1,6 @@
 {
   "name": "mangfold",
-  "version": "0.0.0",
+  "version": "0.0.1-0",
   "description": "a static site generator for Notion users",
   "main": "build/mangfold.js",
   "repository": "git@github.com:mangfold/mangfold.imba.git",
