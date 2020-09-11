@@ -2,8 +2,11 @@
   "name": "mangfold",
   "version": "0.0.0",
   "description": "a static site generator for Notion users",
-  "main": "mangfold.js",
+  "main": "build/mangfold.js",
   "repository": "git@github.com:mangfold/mangfold.imba.git",
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "imbac src -o build/"
+  }
 }
