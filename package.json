@@ -8,5 +8,8 @@
   "license": "MIT",
   "scripts": {
     "build": "imbac src -o build/"
+  },
+  "bin": {
+    "mangfold": "./build/mangfold.js"
   }
 }
