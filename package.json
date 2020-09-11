@@ -7,9 +7,12 @@
   "author": "Alexander Alemayhu <alexander@alemayhu.com>",
   "license": "MIT",
   "scripts": {
-    "build": "imbac src -o build/"
+    "build": "imba build.imba"
   },
   "bin": {
     "mangfold": "./build/mangfold.js"
+  },
+  "dependencies": {
+    "imba": "^2.0.0-alpha.95"
   }
 }
